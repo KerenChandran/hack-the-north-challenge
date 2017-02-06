@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import '../node_modules/react-virtualized/styles.css';
+
 * {
   margin: 0px;
   padding: 0px;
@@ -8,15 +11,18 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 24px;
+  padding: 10px;
   border-bottom: 1px solid #efefef;
+  background-color: #0EC6FD;
 }
 
 .header h1 {
+  color: #FFF;
   font-size: 28px;
+  font-weight: 400;
 }
 
 .logo {
-  width: 56px;
+  width: 44px;
   margin-right: 16px;
 }

@@ -1,0 +1,20 @@
+.applicant-details {
+  display: flex;
+}
+
+.applicant-picture, .applicant-profile-label {
+  flex: 1;
+}
+
+.applicant-profile, .applicant-profile-value {
+  flex: 2;
+}
+
+.applicant-profile-group {
+  display: flex;
+}
+
+.applicant-profile-skills {
+  display: flex;
+  margin-top: 1em;
+}

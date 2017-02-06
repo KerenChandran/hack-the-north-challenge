@@ -1,0 +1,20 @@
+.skill-pill {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.rating {
+  background-color: #1ba8e5;
+  padding: 10px 5px;
+  border-radius: 3px 0 0 3px;
+  color: #fff;
+}
+
+.skill {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.table-skills {
+  overflow: visible !important;
+}

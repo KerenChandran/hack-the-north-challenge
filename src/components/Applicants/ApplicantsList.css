@@ -1,0 +1,42 @@
+.Table {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.header-row,
+.row-even,
+.row-odd {
+  border-bottom: 1px solid rgb(224, 224, 224);
+  color: rgba(0, 0, 0, 0.870588);
+}
+
+.row-even {
+  background-color: inherit;
+}
+
+.row-odd {
+  background-color: rgba(0, 188, 212, 0.2);
+}
+
+.table-header {
+  text-transform: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: rgb(158, 158, 158);
+}
+
+.no-rows {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: #bdbdbd;
+}

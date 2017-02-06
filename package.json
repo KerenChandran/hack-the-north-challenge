@@ -6,8 +6,23 @@
     "react-scripts": "0.8.5"
   },
   "dependencies": {
+    "classnames": "^2.2.5",
+    "es6-promise": "^4.0.5",
+    "immutable": "^3.8.1",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.16.7",
+    "material-ui-superselectfield": "^1.0.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-addons-shallow-compare": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-lazyload": "^2.2.0",
+    "react-redux": "^5.0.2",
+    "react-spinkit": "^2.0.0",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-virtualized": "^8.11.4",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

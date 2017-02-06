@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import HelloWorld from './components/HelloWorld';
+
+// Component
+import Applicants from './containers/Applicants';
 import './App.css';
-import logoSvg from './assets/logo.svg'
+import logoSvg from './assets/white-logo.svg';
 
 class App extends Component {
   render() {
@@ -9,12 +11,12 @@ class App extends Component {
       <div>
         <header className='header'>
           <div className='logo'>
-            <img src={logoSvg}/>
+            <img role="presentation" src={logoSvg}/>
           </div>
-          <h1>Hack the North Frontend Challenge</h1>
+          <h1>Hack the North // Applicants</h1>
         </header>
         <section>
-          <HelloWorld />
+          <Applicants />
         </section>
       </div>
     );

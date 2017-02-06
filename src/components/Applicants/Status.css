@@ -1,0 +1,37 @@
+.accepted {
+  color: #5cb85c;
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid #5cb85c;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.accepted.active, .accepted:hover {
+  color: #fff;
+  background-color: #5cb85c;
+  border: 1px solid #5cb85c;
+}
+
+.rejected {
+  color: #d9534f;
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid #d9534f;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.accepted:hover {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.rejected.active, .rejected:hover {
+  color: #fff;
+  background-color: #d9534f;
+  border: 1px solid #d9534f;
+}

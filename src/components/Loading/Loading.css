@@ -1,0 +1,44 @@
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #FFF;
+}
+
+.loading-container {
+  position: relative;
+  width: 700px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading-logo {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.loading-information {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.loading-text {
+  display: inline;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.sk-three-bounce {
+  display: inline;
+}
+
+.sk-three-bounce > div{
+  background-color: #0EC6FD;
+}

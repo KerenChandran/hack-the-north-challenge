@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+}
+
+.right-search {
+  float: right;
+}
+
+.search-status {
+  margin-left: 30px;
+  min-width: 175px;
+  display: inline-block;
+}
+
+.search-reset {
+  display: inline-block;
+  margin: 10px 20px 0 10px;
+}
+
+.search-chip {
+  display: inline-block;
+  margin: 5px 10px;
+}
